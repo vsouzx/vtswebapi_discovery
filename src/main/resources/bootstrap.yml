@@ -2,6 +2,10 @@
 server:
   port: 8081
 
+health:
+  config:
+    enabled: false
+
 spring:
   application:
     name: vtswebapidiscovery
@@ -33,3 +37,5 @@ spring:
       uri: http://localhost:8080
       ## Habilitar ou Não o Spring Cloud Config Client (False = desabilita)
       enabled: true
+
+
